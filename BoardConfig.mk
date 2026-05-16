@@ -173,3 +173,26 @@ TWRP_EVENT_LOGGING := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_LOGD := true
+
+# ==========================================
+# OrangeFox Configuration Variables
+# ==========================================
+OF_MAINTAINER := "Byte-Crafted"
+FOX_VERSION := "R12"
+
+# Screen Configuration
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
+# Essential Builders & Engine Tweaks
+FOX_REPLACE_TOOLBOX := 1
+FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER := 1
+MR_DEFAULT_SEPOLICY_DOMAINS := true
+
+# Disable features meant specifically for Xiaomi/MIUI
+OF_DISABLE_MIUI_SPECIFIC_FEATURES := 1
+
+# Samsung Optimization Specifics
+OF_QUICK_BACKUP_LIST := "Boot;System;Vendor;Data;"
+FOX_BUILD_MAGISK_MODULE := 1
+OF_SUPPORT_OZIP := 0

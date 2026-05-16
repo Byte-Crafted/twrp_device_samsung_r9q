@@ -15,6 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/twrp_r9q.mk
+	$(LOCAL_DIR)/fox_r9q.mk
 
-COMMON_LUNCH_CHOICES := twrp_r9q-eng
+COMMON_LUNCH_CHOICES := fox_r9q-eng \
+			fox_r9q-userdebug

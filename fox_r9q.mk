@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/r9q/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_r9q
+PRODUCT_NAME := fox_r9q
 PRODUCT_DEVICE := r9q
 PRODUCT_MODEL := SM-G990X
 PRODUCT_BRAND := samsung

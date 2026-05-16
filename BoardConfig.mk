@@ -177,7 +177,7 @@ TARGET_USES_LOGD := true
 # ==========================================
 # OrangeFox Configuration Variables
 # ==========================================
-OF_MAINTAINER := "Byte-Crafted"
+OF_MAINTAINER := Byte-Crafted
 FOX_MAINTAINER_PATCH_VERSION := 1
 
 # Screen Configuration
@@ -193,6 +193,6 @@ MR_DEFAULT_SEPOLICY_DOMAINS := true
 OF_DISABLE_MIUI_SPECIFIC_FEATURES := 1
 
 # Samsung Optimization Specifics
-OF_QUICK_BACKUP_LIST := "Boot;System;Vendor;Data;"
+OF_QUICK_BACKUP_LIST := Boot;System;Vendor;Data;
 FOX_BUILD_MAGISK_MODULE := 1
 OF_SUPPORT_OZIP := 0

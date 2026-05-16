@@ -178,7 +178,7 @@ TARGET_USES_LOGD := true
 # OrangeFox Configuration Variables
 # ==========================================
 OF_MAINTAINER := "Byte-Crafted"
-FOX_MAINTAINER_PATCH_VERSION := "R12_0"
+FOX_MAINTAINER_PATCH_VERSION := "1"
 
 # Screen Configuration
 TARGET_SCREEN_HEIGHT := 2340

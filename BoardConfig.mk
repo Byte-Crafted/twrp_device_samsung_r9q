@@ -179,6 +179,7 @@ TARGET_USES_LOGD := true
 # ==========================================
 OF_MAINTAINER := "Byte-Crafted"
 FOX_VERSION := "R12"
+FOX_MAINTAINER_PATCH_VERSION := "1"
 
 # Screen Configuration
 TARGET_SCREEN_HEIGHT := 2340
